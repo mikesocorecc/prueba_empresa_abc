@@ -9,7 +9,7 @@ Alternative installation is possible without local dependencies relying on [Dock
 
 Clone the repository
 
-    git clone https://github.com/Rafieaydin/latihan-auth-laravel-vue-rest-Api.git
+    git clone https://github.com/mikesocorecc/prueba_empresa_abc.git
 
 Switch to the repo folder
 
