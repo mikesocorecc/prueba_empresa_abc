@@ -3,60 +3,57 @@
 
 ## Installation
 
-Please check the official laravel installation guide for server requirements before you start. [Official Documentation](https://laravel.com/docs/5.4/installation#installation)
+Pasos para realizar la instalacion
 
-Alternative installation is possible without local dependencies relying on [Docker](#docker). 
-
-Clone the repository
+Clone el repositorio
 
     git clone https://github.com/mikesocorecc/prueba_empresa_abc.git
 
-Switch to the repo folder
+Cambiar a la carpeta
 
-    cd latihan-auth-laravel-vue-rest-Api
+    cd prueba_empresa_abc
 
-Install all the dependencies using composer
+Instale todas las dependencias de composer
 
     composer install
 
-Copy the example env file and make the required configuration changes in the .env file
+Copie el ejemplo de Ejemplo ENV y haga los cambios de configuración requeridos en el archivo .env
 
     cp .env.example .env
 
-Generate a new application key
+Generar una nueva clave de aplicación
 
     php artisan key:generate
 
-Run the database migrations (**Set the database connection in .env before migrating**)
+Ejecute las migraciones de la base de datos (** Establezca la conexión de la base de datos en .env antes de migrar **)
 
     php artisan migrate
 
-Start the local development server
+Iniciar el servidor de desarrollo local
 
     php artisan serve
 
-You can now access the server at http://localhost:8000
+Ahora puede acceder al servidor en http://localhost:8000
 
-**TL;DR command list**
+** TL; Lista de comandos DR **
 
-    git clone https://github.com/Rafieaydin/latihan-auth-laravel-vue-rest-Api.git
-    cd latihan-auth-laravel-vue-rest-Api
+    git clone https://github.com/mikesocorecc/prueba_empresa_abc.git
+    cd prueba_empresa_abc
     composer install
     cp .env.example .env
     php artisan key:generate
     
-**Make sure you set the correct database connection information before running the migrations** [Environment variables](#environment-variables)
+** Asegúrese de configurar la información de conexión de base de datos correcta antes de ejecutar las migraciones ** [variables de entorno](#Variables de entorno)
 
     php artisan migrate
     php artisan serve
 
-## credit
+## crédito
 - [volar template](https://getstisla.com/)
 - [framework laravel](https://laravel.com/)
 - [vue.js](https://vuejs.org/v2/guide/)
 - [jwt token](https://jwt.io/)
 - [bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
 - [SweetAlert](https://sweetalert2.github.io/)
-- [vue notify](https://github.com/BinarCode/vue-notifyjs?ref=madewithvuejs.com)
 
 
